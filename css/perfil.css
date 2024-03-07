@@ -1,0 +1,192 @@
+.img_perfil{
+    width: 20rem;
+    height: 20rem;
+    margin: 2rem auto;
+    
+}
+
+.img_perfil img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.data{
+padding: 2rem 0px;
+
+}
+
+
+.data h1 {
+    font-size: 3rem;
+}
+
+.data p {
+    font-size: 1.6rem;
+    color: rgb(23, 20, 72);
+}
+
+.estado{
+    margin: 20px 0px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    color: rgb(29,29,31);
+}
+
+.redes{
+    display: flex;
+    gap: 10px;
+    margin: 15px 0px;
+}
+
+.info{
+    font-size: 1.7rem;
+    
+    width: 20%;
+    height: 2rem;
+    border-radius: 1.5rem;
+    background-color: rgb(194, 193, 193);
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil1 {
+    width: 200px;
+    height: 300px;
+    background-color: rgb(219, 216, 216);
+    margin: auto;
+    margin-top: 4.3rem;
+    padding: 1.3rem;
+
+    position: relative;
+}
+
+.perfil1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 0.8rem solid rgb(255, 255, 255);
+
+    position: absolute;
+    top: -2rem;
+    left: 1.8rem;
+} 
+
+.texto1{
+    font-family:10px;
+    color: rgb(23, 20, 72);
+}
+
+.texto2{
+    font-family:10px;
+    color: rgb(23, 20, 72);
+}
+
+.texto3{
+    font-family:10px;
+    color: rgb(23, 20, 72);
+}
+
+.viñetas{
+        margin: 0px;
+        padding: 0px;
+        column-count: 2;
+        color: rgb(23, 20, 72);
+
+}
+
+.textof{
+    gap: 7px;
+    font-family:10px;
+    color: rgb(23, 20, 72); 
+}
+
+@media screen and (min-width: 1200px) {
+
+    .perfil {
+        height: 20rem;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 60% 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .img-perfil{
+        height: 20rem;
+        display: grid;
+        grid-template-columns: 60% 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+
+    .data {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .estado{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+
+    .redes{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    /* .img_perfil {
+        grid-column: 2/3;
+        grid-row: 1/4;
+        margin: auto;
+    }
+     
+    .info {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    } */
+
+
+    /* .perfil-img{
+        grid-column: 1/2;
+        grid-row: 2/7;
+    } */
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .Aboutme {
+        width: 90%;
+        margin: auto;
+        margin-top: 20rem;
+        display: grid;
+        grid-template-columns: 55% 1fr;
+        grid-row: 2/8;
+
+    }   
+    .info{
+        grid-column: 1/3;
+        grid-row: 1/2;
+       
+    } 
+
+    .perfil1{
+        grid-column: 1/2;
+        grid-row: 1/8;
+    }
+    
+}
+    
+
